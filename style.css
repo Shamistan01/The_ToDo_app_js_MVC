@@ -148,6 +148,13 @@ body {
   border: 0;
 }
 
+#correcting_input{
+padding: 1rem;
+background-color: white;
+border: 1px solid black;
+cursor: move;
+}
+
 #task_input {
   width: 286px;
   border-radius: 10px;

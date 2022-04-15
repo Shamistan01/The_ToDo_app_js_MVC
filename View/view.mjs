@@ -98,6 +98,7 @@ export default class View {
     props.text && (input.value = props.text);
     props.name && (input.name = props.name);
     props.id && (input.id = props.id);
+    props.draggable && (input.draggable = props.draggable);
 
     return input;
   }
