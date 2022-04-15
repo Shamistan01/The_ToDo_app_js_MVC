@@ -118,6 +118,7 @@ export default class View {
     props.id && (button.id = props.id);
     props.class && (button.className = props.class);
     props.type && (button.type = props.type);
+
     return button;
   }
 
