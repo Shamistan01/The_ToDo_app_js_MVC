@@ -20,11 +20,6 @@ export default class Controller {
         this.render();
         this.view.input.value = "";
       }
-      else {
-        this.view.ul.className = "ul_list";
-        this.model.addInput("");
-        this.render();
-      }
     });
 
     // sorting of tasks
